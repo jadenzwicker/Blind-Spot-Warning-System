@@ -10,8 +10,8 @@ __author__ = "gus-pimylifeup"
 __version__ = "1.0"
 __maintainer__ = "pimylifeup.com"
 
-pir_sensor = 11
-piezo = 7
+pir_sensor = 14
+piezo = 4
 
 GPIO.setmode(GPIO.BOARD)
 
