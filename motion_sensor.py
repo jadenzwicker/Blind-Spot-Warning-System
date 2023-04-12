@@ -10,8 +10,8 @@ __author__ = "gus-pimylifeup"
 __version__ = "1.0"
 __maintainer__ = "pimylifeup.com"
 
-pir_sensor = 14   #PIN 8
-piezo = 4	  #PIN 7
+pir_sensor = 8   #PIN 8
+piezo = 7	  #PIN 7
 
 GPIO.setmode(GPIO.BOARD)
 
@@ -29,7 +29,7 @@ try:
             GPIO.output(piezo,True)
             time.sleep(1)
             GPIO.output(piezo,False)
-            time.sleep(5)
+            time.sleep(1)
 except KeyboardInterrupt:
     pass
 finally:
